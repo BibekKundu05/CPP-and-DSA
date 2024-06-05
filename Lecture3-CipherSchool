@@ -1,3 +1,4 @@
+/*
 Constant :- Remains same irrespect of who is using. Ex. 3, 4, etc.
 Variable :- can be change by user. Ex. a, b, x, y, etc.
 variables name can not start with any number or any special characters excluding underscore( _ ).
@@ -10,3 +11,33 @@ User-defined types: struct, class, enum, etc
 Declaring a variable :-
         data type  variable name ;
         Example:  int rollno;
+*/
+// CODE :-
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    //Declare two variables and then assign them values of 3,5 and then add them
+    
+    // int a,b;
+    
+    int a = 3;
+    int b = 5;
+    
+    // a = 3;
+    // b = 5;
+
+    // int c;           //Declare a new variable to store the result of a+b
+    // c = a+b;
+
+    //int c = a+b;
+
+    // cout<<a+b;
+    // cout<<endl;
+    // cout<<"a+b";
+
+    cout<<a+b<<endl<<"a+b";
+
+    return 0;
+}
