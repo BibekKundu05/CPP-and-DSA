@@ -1,0 +1,141 @@
+//1. CODE :- 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    // int a,b;
+    // int c,d;
+
+    //cout<<"Input 2 integers a and b"<<endl;
+    // cout<<"Input 4 integers a and b"<<endl;
+
+    // cin>>a;
+    // cin>>b;
+    // cin>>c;
+    // cin>>d;
+
+    //Statement : a>b
+
+    // cout<<(a>b);
+
+    //Statement : a>b && c>d
+    
+    // cout<<(a>b && c>d);
+
+    //Statement : a>b || c>d
+    // cout<<(a>b || c>d);
+
+    //C++ interprets true as 1
+    //C++ interprets false as 0
+
+    // float a;
+    // cout<<"Enter a float value"<<endl;
+    // cin>>a;
+    // if(a > 0.01)
+    // {
+    //     cout<<"The condition in if statement is correct";       //will only be printed if th statement in the paranthesis is correct
+
+    // }
+
+    float a, b;
+    cout<<"Give 2 floating point numbers as input"<<endl;
+    cin>>a>>b;
+
+    // if(a>0.01 && b>a)   //1 and 0 //The first statement is true and the second statement is false : a=2 and 1.9=b
+    // {
+    //     cout<<"The condition in if statement is correct";       //will only be printed if th statement in the paranthesis is correct
+
+    // }
+
+    if(a>0.01 || b>a)   // 1 or 0 //The first statement is true and the second statement is false : a=2 and 1.9=b
+    {
+        cout<<"The condition in if statement is correct";       //will only be printed if th statement in the paranthesis is correct
+
+    }
+    else
+    {
+        cout<<"The condition is false";
+    }
+    return 0;
+}
+
+//2. GRADING SYSTEM CODE :-
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int marks;
+    cout<<"Student, please enter the marks to calculate the grade : "<<endl;
+    cin>>marks;
+
+    if(marks>90)
+    {
+        cout<<"A";
+    }
+    else if(marks<90 && marks>80)
+    {
+        cout<<"B";
+    }
+    else if(marks<80 && marks>70)
+    {
+        cout<<"C";
+    }
+    else
+    {
+        cout<<"Pass";
+    }
+    return 0;
+}
+
+//3. if-else if-else :-
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    cout<<"Give three integers as input : a,b,c"<<endl;
+    cin>>a>>b>>c;
+    if(a>b && c>d)
+    {
+        cout<<"haha";
+    }
+    else if(a>b && c>d)
+    {
+        cout<<"hehe";
+    }
+    else
+    {
+        cout<<"huhu";
+    }
+  return 0;
+}
+
+//4. Switch Case :-
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Enter a integer a ";
+    cin>>a;
+
+    switch(a)       //to the condition in this paranthesis //it will first evaluate the value inside the switch paranthesis
+    {
+        case 1:
+            cout<<"The value of a is 1 "<<endl;
+            break;              //terminate the processing of a particular case within a switch statement
+        case 2:
+            cout<<"The value of a is 2 "<<endl;
+            break;
+        default:
+            cout<<"default will be always printed"<<endl;
+            break;
+    }
+  return 0;
+}
