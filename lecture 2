@@ -1,0 +1,23 @@
+/*
+This is the first program in this course
+This program will print hello world
+*/
+
+#include<iostream>      //Header file(input and output stream)
+
+using namespace std;       //std makes sure that cout is a part of iostream
+
+int main()      //we have written a main function which is integer data type
+{
+    cout<<"Hello world";    //This will print out Hello world on the user screen
+    return 0;               //returning the output 0
+}
+
+/*
+there are two stream in C++
+1. input stream :- take input from user using cin function
+2. output stream :- display output using cout function
+return is use for output. Return 0 means output is 0.
+displaying and output are not same, displaying is printing something.
+In the code we return 0 because out main function is of integer data type.
+*/
