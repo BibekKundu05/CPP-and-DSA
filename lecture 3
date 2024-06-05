@@ -1,0 +1,12 @@
+Constant :- Remains same irrespect of who is using. Ex. 3, 4, etc.
+Variable :- can be change by user. Ex. a, b, x, y, etc.
+variables name can not start with any number or any special characters excluding underscore( _ ).
+There are many different types of data types in C++ .
+Integer types :- int, short, long, unsigned int, etc.
+Floating-point types :- float, double
+Character type :- char, wchar_t
+Boolean type: bool
+User-defined types: struct, class, enum, etc
+Declaring a variable :-
+        data type  variable name ;
+        Example:  int rollno;
