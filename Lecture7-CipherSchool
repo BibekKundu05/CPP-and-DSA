@@ -1,0 +1,34 @@
+//1. Basics of Array:-
+//Array is a data structure which can represent a collection of data items which have the same data type(float/int/char/...)
+//Declaration of Array:- data_type array_name [array_size]
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x;  //variable name x of type int ----> It can stote a single integer   which means x can either store 1 or 2 or a single integer
+
+    //Arrays can be use to store multiple values in a single variable name
+    int a[5];   //This means it is an array of name a which can store multiple integer, It can store 6 elemenets
+                // Note: The indexing of array starts from 0 and not 1
+
+        // elements starting from 0-5
+        // The first element will have an index 0 --> a[0]
+        // The second element will have an index 1 --> a[1]
+
+        //And goes till a[5]
+}
+
+//2. Reverse 5 given integers:- 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e;
+    cout<<"Give 5 integers as input"<<endl;
+    cin>>a>>b>>c>>d>>e;
+
+    cout<<"The integers in reverse order are: "<<e<<" "<<d<<" "<<c<<" "<<b<<" "<<a;
+
+    return 0;
+}
