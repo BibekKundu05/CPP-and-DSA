@@ -1,0 +1,14 @@
+//1 
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    //There are a class of 30 students has the following data associated with him :
+
+    string name;
+    int mids;float end;
+    bool pre_abs;
+    
+}
